@@ -1,6 +1,7 @@
 <div class="container">
   <header>
     <h1>{{title}}</h1>
+    <!-- {{}} => we call it intepolation in angular world -->
   </header>
 
   <main>
@@ -8,6 +9,7 @@
   </main>
 
   <button (click)="handleIncrease()">Increase</button>
+  <!-- {{}} => we call it event binding in angular world as we are binding event with function -->
   <button (click)="handleReset()">Reset</button>
   <button (click)="handleDecrease()">Decrease</button>
 </div>
